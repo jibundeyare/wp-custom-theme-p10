@@ -1,0 +1,18 @@
+{
+    "name": "popschool/wp-custom-theme",
+    "authors": [
+        {
+            "name": "jibundeyare",
+            "email": "contact@jibundeyare.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "wp-bootstrap/wp-bootstrap-navwalker": "v4.3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<?php return array(
+    'root' => array(
+        'name' => 'popschool/wp-custom-theme',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'composer/installers' => array(
+            'pretty_version' => 'v1.12.0',
+            'version' => '1.12.0.0',
+            'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'popschool/wp-custom-theme' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'roundcube/plugin-installer' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'shama/baton' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'v1.27.0',
+            'version' => '1.27.0.0',
+            'reference' => '8ad114f6b39e2c98a8b0e3bd907732c207c2b534',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/var-dumper' => array(
+            'pretty_version' => 'v6.2.5',
+            'version' => '6.2.5.0',
+            'reference' => '44b7b81749fd20c1bdf4946c041050e22bc8da27',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/var-dumper',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wp-bootstrap/wp-bootstrap-navwalker' => array(
+            'pretty_version' => 'v4.3.0',
+            'version' => '4.3.0.0',
+            'reference' => '5d39044bcee8703d1402f7371b033c460b2e0a71',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wp-bootstrap/wp-bootstrap-navwalker',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
